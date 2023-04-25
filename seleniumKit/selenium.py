@@ -7,7 +7,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 class SeleniumDriver:
     def __init__(self, headless="--headless") -> None:
         chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument(headless)
+        if headless == "--headless":
+            chrome_options.add_argument(headless)
         chrome_options.add_argument("--no-sandbox")
         chrome_options.add_argument("--disable-gpu")
         chrome_options.add_argument("--disable-dev-shm-usage")

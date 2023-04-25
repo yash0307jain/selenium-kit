@@ -6,7 +6,7 @@ Sample Code
 
 ```python
 # Import selenium drivers
-from selenium-kit import SeleniumDriver
+from seleniumKit import SeleniumDriver
 
 # Create the selenium object
 selenium = SeleniumDriver()
@@ -26,6 +26,6 @@ movie_search_result = selenium.elementsByXPath(xpath)
 sleep(0.5)
 selenium.clickOnElement(movie_search_result[0])
 
-# delete the selenium driver
+# Delete the selenium driver
 del selenium
 ```
