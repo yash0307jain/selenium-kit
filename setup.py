@@ -6,7 +6,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="selenium-kit",
-    version="0.0.1",
+    version="0.0.2",
     license="MIT",
     author="Yash Jain",
     author_email="yash0307jain@gmail.com",
