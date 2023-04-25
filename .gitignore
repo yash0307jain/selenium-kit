@@ -3,5 +3,6 @@
 */.ipynb_checkpoints/*
 __pycache__
 
+selenium_kit.egg-info
 build
 dist
